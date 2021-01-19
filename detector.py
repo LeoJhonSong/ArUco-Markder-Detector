@@ -12,8 +12,8 @@ calibration.release()
 # read video stream and detect
 
 if __name__ == '__main__':
-    cap = cv2.VideoCapture('./test.mkv')
-    marker = {}
+    cap = cv2.VideoCapture('./test.mkv')  # 从本地视频读取视频流
+    # cap = cv2.VideoCapture(0)  # 从摄像头读取视频流
 
     while(cap.isOpened()):
         ret, frame = cap.read()
