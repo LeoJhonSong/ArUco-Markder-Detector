@@ -1,6 +1,6 @@
 # ArUco Marker Detector
 
-识别ArUco码并输出**位置, 姿态**到MATLAB程序.
+识别ArUco码并输出**位置, 姿态**到Python程序.
 
 ## ArUco码
 
